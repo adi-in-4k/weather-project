@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0;
+}
+
+/* .container {
+  width: 350px;
+  height: 450px;
+
+  border-radius: 10%;
+
+  /* justify-content: center; */
+
+#navBar {
+  background-color: #861313;
+  color: #16a42b;
+  padding: 10px;
+  width: 329px;
+  height: 22px;
+  /* border-radius: 25%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px; /* Optional padding for the container */
+  height: 470px; /* Adjust height as needed */
+  border-radius: 10%;
+  background-color: #f0f0f0; /* Container background */
+}
+.search-bar {
+  width: 250px; /* Width of the search bar */
+  padding: 10px; /* Padding for the search input */
+  border: 1px solid #ccc; /* Border for the search input */
+  border-radius: 15px; /* Rounded corners */
+  /* border-radius: 5px; */
+  margin-right: 20px;
+  margin-top: 20px;
+  transition: width 0.3s ease, padding 0.3s ease;
+}
+.icon {
+  width: 30px; /* Width of the icon */
+  height: 30px; /* Height of the icon */
+  /* background-color: #007bff; Icon background for visibility */
+  border-radius: 50%; /* Circular icon */
+  margin-top: 24px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.icon img:hover {
+  filter: brightness(120%);
+  /* Increase brightness when hovering */
+  transform: scale(5px);
+  width: 110%;
+  border-color: aqua;
+}
+
+.weather-img img {
+  width: 20px;
+  height: 20px;
+}
+
+.weather-img {
+  margin-top: 35px; /* Adds space between the search bar and sun image */
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+}
+
+.weather-img img {
+  width: 193px; /* Adjust size of the sun image */
+  height: 120px; /* Adjust size of the sun image */
+}
+
+.search-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tem-city {
+  background-color: #861313;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.weather-details .temperature {
+  font-size: 60px;
+  font-weight: 60%;
+  padding: 5px 10px;
+  margin-bottom: 10%;
+  margin-top: 10px;
+}
+
+.weather-details .city-name {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 50%;
+}
+
+.lower-bar .humidty img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* .lower-bar {
+  /* background-color: rgb(18, 14, 9); */
+*/ .lower-bar .humidity {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 50%;
+}
+
+.lower-bar .wind-speed img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.lower-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  /* margin-top: 30px; */
+  /* background-color: rgb(18, 14, 9); */
+  border-radius: 10px;
+  padding: 10px;
+  /* color: white; */
+  font-weight: 50%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 30px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+.humidty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  /* margin-top: 10px; */
+  gap: 5px 0 0;
+}
+
+.wind-speed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  /* margin-top: 10px; */
+  gap: 5px 0 0;
+}
+
+/* Change the background color of the entire page */
+body {
+  background-color: #324b60; /* Light blue, change as needed */
+}
+
+/* Change the background color of the weather card */
+.weather-card {
+  background-color: #593232; /* White, change as needed */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Space inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
