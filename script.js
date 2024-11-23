@@ -73,6 +73,11 @@ document.addEventListener("DOMContentLoaded", () => {
       weatherImages.src = "images/rainy.png";
     } else if (weatherCondition === "snow") {
       weatherImages.src = "images/snowy.png";
+    } else if (weatherCondition === "haze") {
+      weatherImages.src = "images/fog.png";
+    } else if (weatherCondition === "mist") {
+      weatherImages.src =
+        "https://cdn-icons-png.flaticon.com/512/175/175959.png";
     } else {
       weatherImages.src = "images/rainbow.jpeg"; // Default image for other cases
     }
